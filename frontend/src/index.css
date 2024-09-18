@@ -17,6 +17,12 @@ code {
   margin-left: 40px;
 }
 
+.nav-item:hover {
+  text-decoration: underline 2px;
+  text-underline-offset: 10px;
+  color: rgb(148, 190, 245);
+  transition: 2ms ease-in-out;
+}
 #supportHero{
   background-color: rgb(56, 126, 209);
   color: white;
